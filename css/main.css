@@ -1,0 +1,49 @@
+body{
+    font-family: 'Signika', sans-serif;
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.app-body{
+    background-image: url(../images/2.png);
+}
+.list-unstyled li{
+    font-size: 1.4em;
+}
+.nav-link, a{
+    color: #29AF7B !important;
+}
+.nav-link:hover, a:hover{
+    color: #1F865E !important;
+    text-decoration: none !important;
+}
+.app-body a{
+    color: black !important;
+}
+.show a{
+    text-align: right;
+}
+a, p{
+    font-size: 1.2em;
+}
+.btn{
+    background: #29AF7B;
+    color: white;
+    width: 70%;
+}
+.btn:hover{
+    background: white;
+    border: 2px solid #1F865E;
+    color: #1F865E;
+}
+:focus{
+    box-shadow: none !important;
+}
+footer{
+    background: #1F865E;
+}
+@media (max-width: 1024px){
+    .btn{
+        width: 100%;
+    }
+}
